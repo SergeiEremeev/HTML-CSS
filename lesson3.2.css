@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.seasons-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.seasons-title {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2.2em;
+}
+
+.seasons-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.season {
+    margin-bottom: 20px;
+    border-left: 4px solid;
+    padding-left: 15px;
+}
+
+.season-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.winter {
+    border-color: #3498db;
+    background-color:#8fbae8
+}
+.winter .season-header i {
+    color: #3498db;
+}
+
+.spring {
+    border-color: #2ecc71;
+    background-color:#8fe898
+}
+.spring .season-header i {
+    color: #2ecc71;
+}
+
+.summer {
+    border-color: #f39c12;
+    background-color:#dbe88f
+}
+.summer .season-header i {
+    color: #f39c12;
+}
+
+.autumn {
+    border-color: #e74c3c;
+    background-color:#e8b18f
+}
+.autumn .season-header i {
+    color: #e74c3c;
+}
+
+.season-name {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #2c3e50;
+}
+
+.months-list {
+    list-style-type: none;
+    padding-left: 30px;
+    margin-top: 5px;
+}
+
+.months-list li {
+    padding: 5px 0;
+    position: relative;
+}
+
+.months-list li:before {
+    content: "•";
+    color: #7f8c8d;
+    font-size: 1.2em;
+    position: absolute;
+    left: -15px;
+}
+
+
+.fa-snowflake {
+    color: #3498db;
+}
+
+.fa-seedling {
+    color: #2ecc71;
+}
+
+.fa-sun {
+    animation: pulse 2s infinite;
+}
+
+.fa-leaf {
+    color: #e67e22;
+}
+
+
